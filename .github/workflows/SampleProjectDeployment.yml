@@ -41,7 +41,7 @@ jobs:
       
       - name: Bundle and Package
         run:  |
-          gulp build --ship
+          gulp bundle --ship
           gulp package-solution --ship
       - name: Run a one-line script
         run: Gulp package succeeded!    
