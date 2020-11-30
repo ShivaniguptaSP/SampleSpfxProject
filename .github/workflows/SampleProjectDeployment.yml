@@ -29,11 +29,15 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v1
+        with: 
+          node-version: 10.x
+      
+        
       - name: npm/yarn/pnpm install
         # You may pin to the exact commit or the version.
         # uses: Jaid/action-npm-install@9483da054882538350947c4147de4c8adbf0d597
-        uses: Jaid/action-npm-install@v1.2.4
+        run: npm install
       
       - name: Bundle and Package
         run:  |
