@@ -6,7 +6,7 @@
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
-    "skipFeatureDeployment": false
+    "skipFeatureDeployment": true
   },
   "paths": {
     "zippedPackage": "solution/sample-spfx-project.sppkg"
