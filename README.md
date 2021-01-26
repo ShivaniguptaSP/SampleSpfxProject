@@ -1,6 +1,6 @@
 ## sample-spfx-project
 
-This is where you include your WebPart documentation.
+My sample hello world project.
 
 ### Building the code
 
@@ -24,3 +24,4 @@ gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
+
